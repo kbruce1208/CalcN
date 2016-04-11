@@ -26,7 +26,10 @@ public class SimpleCalculator {
   
 			result +=x;
 	}
-	
+	public void deg(int x) {
+		  
+		result -=x;
+}
 	public int getResult() {
 		return result;
 	}

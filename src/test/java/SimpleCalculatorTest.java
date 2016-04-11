@@ -45,5 +45,13 @@ public class SimpleCalculatorTest {
 		calc.inc(200);
 		assertEquals(300, calc.getResult());
 	}
+	@Test
+	public void testDeg() {
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.deg(100);
+		assertEquals(-100, calc.getResult());
+		calc.deg(200);
+		assertEquals(-300, calc.getResult());
+	}
 
 }
